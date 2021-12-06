@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h1>Skillset:</h1>
+<p>{{skillset}}</p>
+<h1>Cutoff Score Required:</h1>
+<p>{{cutoffscore}}</p>
+<h1>Files Found:</h1>
+{% for file in files %}
+    <p>{{file}}</p>
+{% endfor %}
+
+{% endblock %}
