@@ -2,4 +2,4 @@
 Resume Parser and Summariser using spaCy (NLP)
 
 <h1>To Do</h1>
-<li>UI</li>
+- [ ] UI
